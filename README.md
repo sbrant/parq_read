@@ -3,9 +3,11 @@ parq_read.py is a sample script to pull records from a parquet file. The script 
 # Requirements:
 ## Pandas
 http://pandas.pydata.org/pandas-docs/stable/
+
 ---
 
 Use:
+
 ``
 usage: preader.py [-h] pfile
 
