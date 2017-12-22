@@ -6,9 +6,6 @@ http://pandas.pydata.org/pandas-docs/stable/
 
 ---
 
-Use:
-
-``
 usage: preader.py [-h] pfile
 
 positional arguments:
@@ -16,4 +13,3 @@ positional arguments:
 
   optional arguments:
     -h, --help  show this help message and exit
-``
