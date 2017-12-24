@@ -1,4 +1,4 @@
-parq_read.py is a sample script to pull records from a parquet file. The script converts the fields to key=value pairs, per record, for easy ingestion into Splunk.
+parq_read.py is a sample script to enumerate records from a parquet file. The script converts the fields to key=value pairs, per record, for easy ingestion into Splunk.
 
 # Requirements:
 ## Pandas
