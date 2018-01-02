@@ -4,7 +4,7 @@ import argparse
 # https://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_parquet.html#pandas.read_parquet
 import pandas as pd
 
-parser = argparse.ArgumentParser(add_help=True, prog="preader.py")
+parser = argparse.ArgumentParser(add_help=True, prog="parq_read.py")
 parser.add_argument("pfile", type=str, nargs=1, help="parquet file to process")
 args = parser.parse_args()
 
