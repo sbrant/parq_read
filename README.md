@@ -6,7 +6,7 @@ http://pandas.pydata.org/pandas-docs/stable/
 
 ---
 
-usage: preader.py [-h] pfile
+usage: parq_read.py [-h] pfile
 
 positional arguments:
   pfile       parquet file to process
