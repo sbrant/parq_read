@@ -18,10 +18,8 @@ tdict = table.to_dict('index')
 # process converted parquet file to output as key=value pairs for Splunk
 def main():
     for rec in tdict.iteritems():
-        # print 'record_num='+str(rec[0]),
         print 'record_num = {}'.format(str(rec[0])),
         for key,value in rec[1].iteritems():
-            # print key+'='+'"'+str(value)+'"',
             print '{} = "{}"'.format(key, str(value)),
         print '\n',
 
